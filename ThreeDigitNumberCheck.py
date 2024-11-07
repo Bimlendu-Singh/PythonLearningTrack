@@ -4,5 +4,8 @@ if x<1000 and x>99:
 else:
     print(x," is not a 3 digit number")
 y=int(input("Enter 2 digit number: "))
+
 if 9 < y < 100:
-    print(y," is not a 2 digit number")
+    print(y," is a 2 digit number")
+else:
+    print(x," is not a 2 digit number")
